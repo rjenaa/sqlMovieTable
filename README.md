@@ -1,7 +1,7 @@
-#Movie
+## Movie
 
 
-CREATE database movieDataBaseUpdate;
+ CREATE database movieDataBaseUpdate;
  use movieDataBase;
 
  CREATE TABLE IF NOT EXISTS moviesUpdate (
@@ -42,7 +42,7 @@ CREATE database movieDataBaseUpdate;
  INSERT INTO moviesUpdate VALUES  (9,'Pulp Fiction',
  154,	'Crime',	8.9,	'R');
 
-
+ # -- Create a query to find all movies in the Sci-Fi genre.
  select * FROM moviesUpdate
  Where Genre = "Sci-Fi";
 

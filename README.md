@@ -11,7 +11,7 @@ CREATE database movieDataBaseUpdate;
  Genre VARCHAR(30) NOT NULL DEFAULT ' ',
  IMBDScore DECIMAL(2,1) NOT NULL DEFAULT 0,
  Rating VARCHAR(5) NOT NULL DEFAULT ' ',
- PRIMARY KEY (Title)
+ PRIMARY KEY (movieID)
  );
 
 

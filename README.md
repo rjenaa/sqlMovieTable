@@ -1,6 +1,6 @@
-## Movie
+# Movie
 
- # -- Create a query to find all movies in the Sci-Fi genre.
+ ## -- Create a query to find all movies in the Sci-Fi genre.
  select * FROM moviesUpdate
  Where Genre = "Sci-Fi";
 

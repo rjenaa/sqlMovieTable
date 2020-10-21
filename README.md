@@ -61,7 +61,7 @@ CREATE database movieDataBaseUpdate;
  From moviesUpdate
  where (Genre = "Horror" OR Genre = "Documentary");
 
- select AVG(IMBDScore), min(IMBDScore), max(IMBDScore) 
+ select Rating, AVG(IMBDScore), min(IMBDScore), max(IMBDScore) 
  from moviesUpdate
  group by Rating;
 

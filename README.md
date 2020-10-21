@@ -57,7 +57,7 @@ CREATE database movieDataBaseUpdate;
 
 
 
- select ID, Rating
+ select movieID, Rating
  From moviesUpdate
  where (Genre = "Horror" OR Genre = "Documentary");
 

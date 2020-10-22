@@ -40,3 +40,19 @@
  GROUP BY Rating
  HAVING count(*) > 1;
 
+## Three Addition Queries
+### Shows rows where runtime is greater than 90 limited to 2
+ select *
+ from moviesupdate 
+ where runtime > 90
+ limit 2;
+
+### Query that finds titles that start with S
+select *
+from moviesupdate 
+where Title like "S%";
+
+### Query that finds runtimes between 80 and 90
+SELECT *
+FROM moviesupdate
+WHERE Runtime BETWEEN 80 AND 90;
